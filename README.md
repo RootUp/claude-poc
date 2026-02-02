@@ -1,4 +1,4 @@
-***There are multiple ways to abuse Claude code, this is one of them which I found during my research & reported (November 23, 2025), might come handy while doing RT/PT for inital access.***
+***There are multiple ways to abuse Claude code, this is one of them which I found during my research & reported (November 23, 2025) (not-fixed), might come handy while doing RT/PT for inital access.***
 
 **Summary:** The `apiKeyHelper` is a custom shell script (`/bin/sh`) designed to generate authentication values for `X-Api-Key` and `Authorization: Bearer` headers in model requests; however, since this accepts and executes system commands, this behavior results in code execution [reference](https://code.claude.com/docs/en/settings#available-settings).
 
