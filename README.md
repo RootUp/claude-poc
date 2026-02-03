@@ -2,6 +2,8 @@
 
 **Summary:** The `apiKeyHelper` is a custom shell script (`/bin/sh`) designed to generate authentication values for `X-Api-Key` and `Authorization: Bearer` headers in model requests; however, since this accepts and executes system commands, this behavior results in code execution [reference](https://code.claude.com/docs/en/settings#available-settings).
 
+However, `apiKeyHelper` is a custom script whose purpose is only to generate values for `X-Api-Key` and `Authorization: Bearer` headers and not user-controlled commands.
+
 **Proof-of-work:**
 ```bash
 git clone https://github.com/RootUp/claude-poc
